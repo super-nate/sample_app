@@ -9,8 +9,8 @@ class User < ActiveRecord::Base
 #must be at least 6 characters and include one number and one letter
   #VALID_PASSWORD_REGEX = /\A(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*(_|[^\w])).+\z/
   #
-  validates :password, presence: true, length: { minimum: 6 }#, format: { with: VALID_PASSWORD_REGEX }
-
+  #validates :password, presence: true, length: { minimum: 6 }#, format: { with: VALID_PASSWORD_REGEX }
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
   has_secure_password
 
 
