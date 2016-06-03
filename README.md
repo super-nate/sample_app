@@ -23,6 +23,8 @@ Things you may want to cover:
 
 * CI instructions
 
+* Check for the heroku CD
+
 * And so on
 
 
