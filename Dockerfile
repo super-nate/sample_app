@@ -10,4 +10,3 @@ RUN /bin/bash -c 'source /etc/profile.d/rvm.sh && source /usr/local/rvm/scripts/
 
 
 
-
